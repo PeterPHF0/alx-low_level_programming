@@ -15,8 +15,8 @@ int main(void)
 		if (a != 'q' || a != 'e')
 		{
 			printf("%c", a);
-			a++;
 		}
+		a++;
 	}
 	printf("\n");
 	return (0);
