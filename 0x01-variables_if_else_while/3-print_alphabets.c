@@ -8,12 +8,18 @@
 */
 int main(void)
 {
-	int digit = 97;
+	char a = 'a';
+	char A = 'A';
 
-	while (putchar(digit) < 'z')
+	while (a <= 'z')
 	{
-		printf("%c", putchar(digit));
-		digit++;
+		printf("%c", a);
+		a++;
+	}
+	while (A < 'Z')
+	{
+		printf("%c", A);
+		A++;
 	}
 	printf("\n");
 	return (0);
