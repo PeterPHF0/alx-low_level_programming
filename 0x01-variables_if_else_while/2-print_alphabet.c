@@ -13,6 +13,7 @@ int main(void)
 	while (putchar(digit) < 'z')
 	{
 		printf("%c", putchar(digit));
+		digit++;
 	}
 	printf("\n");
 	return (0);
