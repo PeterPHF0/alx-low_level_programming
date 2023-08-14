@@ -26,7 +26,7 @@ int main(void)
 	{
 		printf("less than 6 and not 0\n");
 	}
-	else if (n_last_digit)
+	else if (n_last_digit == 0)
 	{
 		printf("0\n");
 	}
