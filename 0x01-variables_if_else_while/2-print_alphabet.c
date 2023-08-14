@@ -1,19 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main - Entry point
+ * main - kxopam
  *
- * Description: use sizeof
+ * Description: hhh
  *
- * Return: 0 (Success)
-*/
+ * Return: cskdvj
+ */
 int main(void)
 {
-	int digit = 97;
+	char a = 'a';
 
-	while (putchar(digit) < 'z')
+	while (a <= 'z')
 	{
-		printf("%c", putchar(digit));
-		digit++;
+		printf("%c", a);
+		a++;
 	}
 	printf("\n");
 	return (0);
