@@ -1,1 +1,2 @@
 gcc -E main.c -o c
+
