@@ -1,19 +1,16 @@
 #include <stdio.h>
 /**
- * main - kxopam
+ * main - Prints numbers from 0 to 9.
  *
- * Description: hhh
- *
- * Return: cskdvj
- */
+ * Return: Always 0 (Success)
+*/
 int main(void)
 {
-	int char_0 = 48;
+	int i;
 
-	while (char_0 <= 57)
+	for (i = 48; i < 58; i++)
 	{
-		putchar(char_0);
-		char_0++;
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
