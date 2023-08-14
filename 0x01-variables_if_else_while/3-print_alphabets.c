@@ -16,7 +16,7 @@ int main(void)
 		printf("%c", a);
 		a++;
 	}
-	while (A < 'Z')
+	while (A <= 'Z')
 	{
 		printf("%c", A);
 		A++;
