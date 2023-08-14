@@ -1,0 +1,3 @@
+touch new
+echo "#!/bin/bash" > new
+chmod u+x new
