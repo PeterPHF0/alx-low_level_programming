@@ -19,17 +19,22 @@ void jack_bauer(void)
 			{
 				while(v <= '9')
 				{
+					
 					putchar(i);
 					putchar(j);
 					putchar(':');
 					putchar(c);
 					putchar(v);
+					putchar('\n');
 					v++;
 				}
+				v = 0;
 				c++;
 			}
+			c = 0;
 			j++;
 		}
+		j = 0;
 		i++;
 	}
 }
