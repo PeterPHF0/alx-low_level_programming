@@ -9,21 +9,21 @@
 */
 void jack_bauer(void)
 {
-	int i = 0, j = 0, c = 0, v = 0;
+	int i = '0', j = '0', c = '0', v = '0';
 
-	while (i <= 2)
+	while (i <= '2')
 	{
-		while (j <= 3)
+		while (j <= '3')
 		{
-			while (c <= 5)
+			while (c <= '5')
 			{
-				while(v <= 9)
+				while(v <= '9')
 				{
-					putchar((char)i);
-					putchar((char)j);
+					putchar(i);
+					putchar(j);
 					putchar(':');
-					putchar((char)c);
-					putchar((char)v);
+					putchar(c);
+					putchar(v);
 					v++;
 				}
 				c++;
