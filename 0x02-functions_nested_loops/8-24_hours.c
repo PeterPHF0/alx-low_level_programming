@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include "main.h"
 /**
- * main - Entry point
+ * jack_bauer - Entry point
  *
  * Description: use sizeof
  *
@@ -17,9 +17,8 @@ void jack_bauer(void)
 		{
 			while (c <= '5')
 			{
-				while(v <= '9')
-				{
-					
+				while (v <= '9')
+				{	
 					putchar(i);
 					putchar(j);
 					putchar(':');
@@ -33,7 +32,7 @@ void jack_bauer(void)
 			};
 			c = '0';
 			j++;
-			if (i == '2' && j== '4')
+			if (i == '2' && j == '4')
 			{
 				break;
 			}
