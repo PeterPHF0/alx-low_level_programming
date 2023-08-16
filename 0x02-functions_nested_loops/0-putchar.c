@@ -12,8 +12,8 @@ int main(void){
 
 	for(i = 0;i<8;i++)
 	{
-		putchiar(str[i]);
+		putchar(str[i]);
 	}
-	putshr('\n');
+	putchar('\n');
 	return (0);
 }
