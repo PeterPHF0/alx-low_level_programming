@@ -19,11 +19,11 @@ void jack_bauer(void)
 			{
 				while(v <= 9)
 				{
-					_putchar((char)i);
-					_putchar((char)j);
-					_putchar(':');
-					_putchar((char)c);
-					_putchar((char)v);
+					putchar((char)i);
+					putchar((char)j);
+					putchar(':');
+					putchar((char)c);
+					putchar((char)v);
 					v++;
 				}
 				c++;
