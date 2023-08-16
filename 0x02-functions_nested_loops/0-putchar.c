@@ -6,13 +6,14 @@
  *
  * Return: 0 (Success)
 */
-int main(void)
-{
+int main(void){
 	char str[] = "_putchar";
+	int i;
 
-	for(int i = 0;i<8;i++)
+	for(i = 0;i<8;i++)
 	{
-		putchar(str[i]);
+		putchiar(str[i]);
 	}
+	putshr('\n');
 	return (0);
 }
