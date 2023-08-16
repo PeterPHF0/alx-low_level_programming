@@ -1,11 +1,8 @@
 #include<stdio.h>
 #include "main.h"
 /**
- * print_alphabet - print alphabet letters
+ * print_alphabet_x10 - print alphabet letters ten times
  *
- * Description: use sizeof
- *
- * Return: 0 (Success)
 */
 void print_alphabet_x10(void)
 {
@@ -21,5 +18,6 @@ void print_alphabet_x10(void)
 			a++;
 		}
 		_putchar('\n');
+		counter++;
 	}
 }
