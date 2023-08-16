@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<ctype.h>
 /**
- * _isalpha - checks for a given input is a letter or not 
+ * _isalpha - checks for a given input is a letter or not
  *
  * @c: char as an input
  *
