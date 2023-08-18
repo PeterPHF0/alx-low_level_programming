@@ -8,9 +8,9 @@
 */
 int _isdigit(int c)
 {
-	int zero = 0;
+	char zero = '0';
 
-	while (zero <= 9)
+	while (zero <= '9')
 	{
 		if (c == zero)
 		{
