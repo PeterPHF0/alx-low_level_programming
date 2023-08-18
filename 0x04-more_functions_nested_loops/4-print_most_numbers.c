@@ -14,7 +14,7 @@ void print_most_numbers(void)
 
 	while (zero <= 57)
 	{
-		if (zero != 2 && zero != 4)
+		if (zero != 50 && zero != 52)
 		{
 			_putchar(zero);
 		}
