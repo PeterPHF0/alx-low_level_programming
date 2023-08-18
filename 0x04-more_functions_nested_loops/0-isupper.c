@@ -19,5 +19,5 @@ int _isupper(int c)
 		}
 		A++;
 	}
-	return {0};
+	return (0);
 }
