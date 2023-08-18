@@ -1,27 +1,26 @@
 #include<stdio.h>
 /**
- * main - Entry point
+ * _isupper - Entry point
  *
- * Description: use sizeof
+ * @c: use sizeof
  *
  * Return: 0 (Success)
 */
 
 int _isupper(int c)
 {
-	int A = 'A';
+	char A = 'A';
 
 	while (A <= 'Z')
 	{
-		if (A == c)
+		if (c == A)
 		{
 			return (1);
 		}
-		else 
+		else
 		{
 			return (0);
 		}
 		A++;
 	}
-
 }
