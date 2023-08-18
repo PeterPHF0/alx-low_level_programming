@@ -1,35 +1,30 @@
-#include<stdio.h>
-#include"main.h"
+#include "main.h"
+
 /**
- * print_diagonal - Entry point
- *
- * @n: use sizeof
- *
- * Return: 0 (Success)
-*/
+ * print_diagonal - draws a diagonal line on the terminal
+ * @n: number of times the character \ should be printed
+ */
+
 void print_diagonal(int n)
 {
-	int i = 0, j = 0;
-
 	if (n <= 0)
 	{
 		_putchar('\n');
-	}
-	else
+	} else
 	{
-		while (i < n)
+		int i, j;
+
+		for (i = 0; i < n; i++)
 		{
-			while (j < n)
+			for (j = 0; j < n; j++)
 			{
-				for (int i = 0; i < j; i++)
-				{
+				if (j == i)
 					_putchar('\\');
-				}
-				j++;
-				_putchar('\n');
+				else if (j < i)
+					_putchar(' ');
 			}
-			i++;
+			_putchar('\n');
 		}
 	}
-
 }
+
