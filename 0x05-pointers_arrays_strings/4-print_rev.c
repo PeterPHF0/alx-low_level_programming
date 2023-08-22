@@ -18,11 +18,12 @@ void print_rev(char *s)
 		len++;
 		str++;
 	}
+	int ind = len - 1;
 
-	while ((len - 1) != 0)
+	while (ind != -1)
 	{
-		_putchar(s[len - 1]);
-		len--;
+		_putchar(s[ind]);
+		ind--;
 	}
 
 }
