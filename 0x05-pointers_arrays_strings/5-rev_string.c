@@ -6,20 +6,23 @@
  * Return: String in reverse
  */
 
-void rev_string(char *s)
-{
-	char rev = s[0];
-	int counter = 0;
-	int i;
+void rev_string( char* str) {
+    size_t len = strlen(str);
+    char* str2 = malloc((len + 1) * sizeof(char)); // Allocate memory dynamically
+    if (str2 == NULL) {
+        printf("Memory allocation failed.\n");
+        return;
+    }
+    strcpy(str2, str);
 
-	while (s[counter] != '\0')
-	counter++;
-	for (i = 0; i < counter; i++)
-	{
-		counter--;
-		rev = s[i];
-		s[i] = s[counter];
-		s[counter] = rev;
-	}
+    // Reverse the string
+    for (size_t i = 0; i < len / 2; i++) {
+        char temp = str2[i];
+        str2[i] = str2[len - i - 1];
+        str2[len - i - 1] = temp;
+    }
+
+    printf("Reversed string: %s\n", str2);
+
+    free(str2); // Free the allocated memory
 }
-
