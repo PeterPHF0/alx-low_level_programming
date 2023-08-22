@@ -2,9 +2,9 @@
 /**
  * swap_int - swap 2 int
  *
- * @*a: address of the first var
+ * @a: address of the first var
  *
- * @*b: address of the second var
+ * @b: address of the second var
  *
  * Return: 0 (Success)
 */
