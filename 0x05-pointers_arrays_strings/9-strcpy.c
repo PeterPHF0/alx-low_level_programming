@@ -4,7 +4,7 @@
  * _strcpy - Entry point
  *
  * @dest: use sizeof
- * 
+ *
  * @src: fasf
  *
  * Return: 0 (Success)
