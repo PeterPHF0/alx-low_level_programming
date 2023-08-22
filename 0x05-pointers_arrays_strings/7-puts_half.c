@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include <string.h>
+#include "main.h"
 /**
  * puts_half - Entry point
  *
@@ -10,6 +11,8 @@
 
 void puts_half(char *str)
 {
+	int half;
+	
 	if (strlen(str) % 2 == 0)
 	{
 		half = strlen(str) / 2;
