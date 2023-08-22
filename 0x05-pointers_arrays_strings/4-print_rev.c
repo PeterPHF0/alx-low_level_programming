@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include "main.h"
 /**
- * main - Entry point
+ * print_rev - Entry point
  *
- * Description: use sizeof
+ * @s: pointer to char (first char of a string)
  *
  * Return: 0 (Success)
 */
