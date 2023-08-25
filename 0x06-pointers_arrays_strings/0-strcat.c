@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include <string.h>
 /**
- * strcat - Entry point
+ * _strcat - Entry point
  *
  * @dest: 1st string
  *
@@ -20,5 +20,5 @@ char *_strcat(char *dest, char *src)
 		len_dest++;
 		src++;
 	}
-	return dest;
+	return (dest);
 }
