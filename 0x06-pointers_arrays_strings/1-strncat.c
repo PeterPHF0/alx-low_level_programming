@@ -1,11 +1,13 @@
 #include<stdio.h>
 #include <string.h>
 /**
- * _strcat - Entry point
+ * _strncat - Entry point
  *
  * @dest: 1st string
  *
  * @src: 2nd string
+ *
+ * @n: number of concatenated char
  *
  * Return: 0 (Success)
 */
