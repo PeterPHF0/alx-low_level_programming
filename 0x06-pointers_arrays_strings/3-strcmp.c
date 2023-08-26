@@ -13,7 +13,6 @@
 int _strcmp(char *s1, char *s2)
 {
 	int len1 = strlen(s1);
-	int len2 = strlen(s2);
 	int counter = 0;
 
 	while(*s1 == *s2 && *s1 != '\0')
