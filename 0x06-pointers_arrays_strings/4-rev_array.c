@@ -1,8 +1,10 @@
 #include<stdio.h>
 /**
- * main - Entry point
+ * reverse_array - Entry point
  *
- * Description: use sizeof
+ * @a: use sizeof
+ *
+ * @n: array size
  *
  * Return: 0 (Success)
 */
