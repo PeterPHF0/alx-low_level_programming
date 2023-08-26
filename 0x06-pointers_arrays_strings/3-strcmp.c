@@ -15,14 +15,15 @@ int _strcmp(char *s1, char *s2)
 	int len2 = strlen(s2);
 	int counter = 0;
 
-		while(*s1 == *s2 && *s1 != '\0')
-		{
-			s1++;
-			s2++;
-			counter++;
-		}
-		if (counter == len1)
-			return (0);
-
-		return (*s1 - *s2);
+	while(*s1 == *s2 && *s1 != '\0')
+	{
+		s1++;
+		s2++;
+		counter++;
+	}
+	if (counter == len1)
+	{
+		return (0);
+	}
+	return (*s1 - *s2);
 }
