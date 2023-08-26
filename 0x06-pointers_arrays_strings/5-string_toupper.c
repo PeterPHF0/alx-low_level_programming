@@ -10,7 +10,7 @@
 char *string_toupper(char *c)
 {
 	char i = 97;
-	bool low = 0;
+	int low = 0;
 
 	while (*c != '\0')
 	{
