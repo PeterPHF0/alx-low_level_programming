@@ -25,7 +25,7 @@ char *string_toupper(char *c)
 		}
 		if (low == 1)
 		{
-			*c = *c + 32;
+			*c = *c - 32;
 		}
 		c++;
 		low = 0;
