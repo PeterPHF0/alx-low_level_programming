@@ -12,6 +12,7 @@ char *string_toupper(char *c)
 	while (*c != '\0')
 	{
 		*c = *c + 32;
+		c++;
 	}
 	return c;
 }
