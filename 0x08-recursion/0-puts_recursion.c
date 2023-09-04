@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include "main.h"
 /**
- * main - Entry point
+ * _puts_recursion - Entry point
  *
- * Description: use sizeof
+ * @s: use sizeof
  *
  * Return: 0 (Success)
 */
