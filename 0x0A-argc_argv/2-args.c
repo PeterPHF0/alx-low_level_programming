@@ -12,6 +12,13 @@
 
 int main(int argc, charr *argv[])
 {
+	int i = 0;
 
+	while (argv[i] != NULL)
+	{
+		printf("%s\n", argv[i]);
+		i++;
+	}
+	(void)argc;
 	return(0);
 }
