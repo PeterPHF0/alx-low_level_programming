@@ -20,5 +20,5 @@ int main(int argc, char *argv[])
 		i++;
 	}
 	(void)argc;
-	return(0);
+	return (0);
 }
