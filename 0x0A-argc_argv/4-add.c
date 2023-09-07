@@ -1,4 +1,4 @@
-
+#include <stdlib.h>
 #include<stdio.h>
 /**
  * main - Entry point
@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 		{
 			while (a <= 122)
 			{
-				if (agrv[i] == a || agrv[i] == A)
+				if (argv[i] == a || argv[i] == A)
 				{
 					printf("Error");
 					return (0);
@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 				a++;
 				A++;
 			}
-			sum += argv[i];
+			sum += atoi(argv[i]);
 			i++;
 		}
 	}
