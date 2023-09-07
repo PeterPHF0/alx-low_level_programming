@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 		{
 			while (a <= 122)
 			{
-				if (argv[i] == a || argv[i] == A)
+				if (*argv[i] == a || *argv[i] == A)
 				{
 					printf("Error");
 					return (0);
@@ -40,6 +40,7 @@ int main(int argc, char *argv[])
 			sum += atoi(argv[i]);
 			i++;
 		}
+		printf("%d\n", sum);
 	}
 	return (0);
 }
