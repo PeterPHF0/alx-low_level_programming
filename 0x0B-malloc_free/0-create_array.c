@@ -1,9 +1,10 @@
 #include<stdio.h>
 #include <stdlib.h>
 /**
- * main - Entry point
+ * create_array - Entry point
  *
- * Description: use sizeof
+ * @size: use sizeof
+ * @c: jnjvkjsfdv
  *
  * Return: 0 (Success)
 */
