@@ -1,3 +1,5 @@
+#ifndef DOG_H
+#define DOG_H
 /*
  * dog: struct 
  *
@@ -6,10 +8,6 @@
  * @owner: ow
  *
  * */
-
-
-#ifndef DOG_H
-#define DOG_H
 struct dog
 {
 	char *name;
