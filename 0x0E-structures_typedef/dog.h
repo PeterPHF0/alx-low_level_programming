@@ -3,12 +3,10 @@
 
 /**
  * struct dog - struct 
- * 
  * @name: d name
  * @age: ag
  * @owner: ow
- *
- * Description: Provide
+ * Description: Provid
  */
 struct dog
 {
