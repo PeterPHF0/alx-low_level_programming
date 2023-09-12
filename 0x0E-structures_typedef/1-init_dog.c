@@ -2,14 +2,11 @@
 #include"dog.h"
 /**
  * init_dog - Entry point
- *
- * @dog: vdfv
+ * @d: vdfv
  * @name:ffvf
  * @age:vfv
  * @owner: vdfv
- *
  * Description: use sizeof
- *
  * Return: 0 (Success)
 */
 
