@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
-#define NULL ""
 /**
  * main - Entry point
  *
@@ -15,10 +14,10 @@ char *str_concat(char *s1, char *s2)
 	int len = strlen(s1) + strlen(s2) + 1;
 	char *conc;
 	int i = 0,j = 0;
-	if (s1 == NULL)
-		s1 = "";
-	else if (s2 == 	NULL)
-		s2 = "";
+	if (*s1 == NULL)
+		*s1 = "";
+	else if (*s2 == 	NULL)
+		*s2 = "";
 	conc = (char*)malloc(len * sizeof(char));
 	if (conc == NULL)
 	{
