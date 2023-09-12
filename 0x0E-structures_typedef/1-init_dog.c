@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include"main.h"
 /**
  * init_dog - Entry point
  *
