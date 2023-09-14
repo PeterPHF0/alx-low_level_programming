@@ -14,8 +14,8 @@ int main(int argc, char *argv[])
 {
 	int i = 1;
 	int sum = 0;
-	char a = 97;
-	char A = 65;
+	char a = 'a';
+	char A = 'A';
 	
 	if (argc == 1)
 	{
@@ -34,6 +34,7 @@ int main(int argc, char *argv[])
 					printf("Error");
 					return (0);
 				}
+				printf("emtered while");
 				a++;
 				A++;
 			}
