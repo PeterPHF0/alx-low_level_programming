@@ -4,7 +4,8 @@
 #include<stdlib.h>
 /**
  * main - Entry point
- *
+ * @argc: counter
+ * @argv: vector
  * Description: use sizeof
  *
  * Return: 0 (Success)

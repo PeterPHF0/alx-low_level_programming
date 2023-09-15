@@ -1,61 +1,66 @@
 #include<stdio.h>
 #include"3-calc.h"
 /**
- * main - Entry point
+ * op_add- Entry point
  *
- * Description: use sizeof
+ * @a: use sizeof
+ * @b: vsv
  *
  * Return: 0 (Success)
 */
 int op_add(int a, int b)
 {
-        return (a + b);
+	return (a + b);
 }
 /**
- * main - Entry point
+ * op_sub- Entry point
  *
- * Description: use sizeof
+ * @a: use sizeof
+ * @b: vsv
  *
  * Return: 0 (Success)
 */
 
 int op_sub(int a, int b)
 {
-        return (a - b);
+	return (a - b);
 }
 /**
- * main - Entry point
+ * op_mul- Entry point
  *
- * Description: use sizeof
+ * @a: use sizeof
+ * @b: vsv
  *
  * Return: 0 (Success)
 */
 
 int op_mul(int a, int b)
 {
-        return (a * b);
+	return (a * b);
 }
 /**
- * main - Entry point
+ * op_div- Entry point
  *
- * Description: use sizeof
+ * @a: use sizeof
+ * @b: vsv
  *
  * Return: 0 (Success)
 */
 
 int op_div(int a, int b)
 {
-        return (a / b);
+	return (a / b);
 }
 /**
- * main - Entry point
+ * op_mod - Entry point
  *
- * Description: use sizeof
+ * @a: use sizeof
+ * @b: vsv
  *
  * Return: 0 (Success)
 */
 
 int op_mod(int a, int b)
 {
-        return (a % b);
+	return (a % b);
 }
