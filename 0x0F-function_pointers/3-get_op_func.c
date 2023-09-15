@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include "3-calc.h"
+#include<string.h>
 /**
  * get_op_func - Entry point
  *
@@ -21,7 +22,7 @@ int (*get_op_func(char *s))(int, int)
 
     while(i < 5)
     {
-    	if (*s == *(ops[i].op))
+    	if (*s == *(ops[i].op) && strlen(s) == 1)
 		return (ops[i].f);
 	i++;
     }
