@@ -3,9 +3,10 @@
 #include <string.h>
 #include "main.h"
 /**
- * main - Entry point
+ * str_concat - Entry point
  *
- * Description: use sizeof
+ * @s1: use sizeof
+ * @s2:fff
  *
  * Return: 0 (Success)
 */
@@ -13,7 +14,7 @@ char *str_concat(char *s1, char *s2)
 {
 	char *conc_str;
 	int i = 0, j = 0;
-	
+
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
