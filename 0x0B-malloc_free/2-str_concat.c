@@ -1,40 +1,35 @@
 #include<stdio.h>
-#include<string.h>
 #include<stdlib.h>
 /**
- * str_concat - Entry point
+ * main - Entry point
  *
- * @s1: use sizeof
- * @s2: use sizeof
+ * Description: use sizeof
+ *
  * Return: 0 (Success)
 */
-
 char *str_concat(char *s1, char *s2)
 {
-	int len;
-	char *conc;
-	unsigned int i = 0,j = 0;
-
+	char *conc_str;
+	int i = 0, j = 0;
+	
 	if (s1 == NULL)
 		s1 = "";
-	else if (s2 == 	NULL)
+	else if (s2 == NULL)
 		s2 = "";
-	len = strlen(s1) + strlen(s2) + 1;
-	conc = (char*)malloc(len * sizeof(char));
-	if (conc == NULL)
-	{
+	conc_str = (char *)malloc(strlen(s1) + strlen(s2) + 1);
+	if (conc_str == NULL)
 		return (NULL);
-	}
-	while (i < strlen(s1))
+	while (s1[i] != '\0')
 	{
-		conc[i] = s1[i];
+		conc_str[i] = s1[i];
 		i++;
 	}
-	while (j <= strlen(s2))
+	while (s2[j] != '\0')
 	{
-		conc[i] = s2[j];
+		conc_str[i] = s2[j];
 		i++;
 		j++;
-        }
-	return (conc);
+	}
+	conc_str[i] = s2[j];
+	return (conc_str);
 }
