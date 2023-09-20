@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include <string.h>
 #include<stdlib.h>
+#include"dog.h"
 /**
  * main - Entry point
  *
