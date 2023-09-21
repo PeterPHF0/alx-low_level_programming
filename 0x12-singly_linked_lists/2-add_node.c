@@ -1,5 +1,7 @@
 #include<stdio.h>
 #include "lists.h"
+#include <string.h>
+#include <stdlib.h>
 /**
  * add_node - Entry point
  *
@@ -13,7 +15,7 @@ list_t *add_node(list_t **head, const char *str)
 	list_t *nodePtr;
 	list_t *temp;
 
-	nodePtr = (list_t)malloc(sizeof(list_t));
+	nodePtr = (list_t *)malloc(sizeof(list_t));
 	if (nodePtr == NULL)
 		return (NULL)
 	nodePtr->str = strdup(str);
