@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include "lists.h"
 /**
- * print_list - Entry point
+ * list_len - Entry point
  *
  * @h: pointer to the header node
  *
@@ -16,6 +16,5 @@ size_t list_len(const list_t *h)
 		h = h->next;
 		s++;
 	}
-
 	return (s);
 }
