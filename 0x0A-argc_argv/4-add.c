@@ -24,7 +24,6 @@ int main(int argc, char *argv[])
 	}
 	else 
 	{
-	
 		while (argv[i] != NULL)
 		{
 			while (a <= 122)
@@ -32,7 +31,7 @@ int main(int argc, char *argv[])
 				if (*argv[i] == a || *argv[i] == A)
 				{
 					printf("Error");
-					return (0);
+					return (1);
 				}
 				printf("emtered while");
 				a++;
