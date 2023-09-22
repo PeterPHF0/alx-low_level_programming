@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 			{
 				while (argv[i][j] != '\0')
 				{
-					if (*argv[i] == a || *argv[i] == A)
+					if (argv[i][j] == a || argv[i][j] == A)
 					{
 						printf("Error\n");
 						return (1);
