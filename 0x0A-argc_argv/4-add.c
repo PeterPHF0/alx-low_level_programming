@@ -18,13 +18,13 @@ int main(int argc, char *argv[])
 	int sum = 0;
 	char a = 'a';
 	char A = 'A';
-	
+
 	if (argc == 1)
 	{
-	       printf("%d\n", 0);
-	       return (0);
+		printf("%d\n", 0);
+		return (0);
 	}
-	else 
+	else
 	{
 		while (argv[i] != NULL)
 		{
