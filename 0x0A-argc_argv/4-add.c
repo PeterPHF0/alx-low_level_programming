@@ -14,6 +14,7 @@
 int main(int argc, char *argv[])
 {
 	int i = 1;
+	int j = 0;
 	int sum = 0;
 	char a = 'a';
 	char A = 'A';
@@ -27,23 +28,24 @@ int main(int argc, char *argv[])
 	{
 		while (argv[i] != NULL)
 		{
-			if (strlen(argv[i]) != 1 )
-			{
-				printf("Error\n");
-				return (1);
-			}
 			while (a <= 122)
 			{
-				if (*argv[i] == a || *argv[i] == A)
+				while (argv[i][j] != '\0')
 				{
-					printf("Error\n");
-					return (1);
+					if (*argv[i] == a || *argv[i] == A)
+					{
+						printf("Error\n");
+						return (1);
+					}
+					j++;
 				}
+				j = 0;
 				a++;
 				A++;
 			}
 			sum += atoi(argv[i]);
 			i++;
+			j = 0;
 			a = 'a';
 			A = 'A';
 		}
