@@ -33,9 +33,10 @@ int main(int argc, char *argv[])
 					printf("Error");
 					return (1);
 				}
-				printf("emtered while");
 				a++;
 				A++;
+				a = 'a';
+				A = 'A';
 			}
 			sum += atoi(argv[i]);
 			i++;
