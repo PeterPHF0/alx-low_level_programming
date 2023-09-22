@@ -41,11 +41,11 @@ int main(int argc, char *argv[])
 				}
 				a++;
 				A++;
-				a = 'a';
-				A = 'A';
 			}
 			sum += atoi(argv[i]);
 			i++;
+			a = 'a';
+			A = 'A';
 		}
 		printf("%d\n", sum);
 	}
