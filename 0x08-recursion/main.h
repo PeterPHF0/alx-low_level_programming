@@ -10,4 +10,5 @@ void more_numbers(void);
 void print_line(int n);
 void print_diagonal(int n);
 int _strlen(char *s);
+int _strlen_recursion(char *s);
 #endif
