@@ -26,11 +26,16 @@ int main(int argc, char *argv[])
 	{
 		while (argv[i] != NULL)
 		{
+			if (strlen(argv[i]) != 1 )
+			{
+				printf("Error\n");
+				return (1);
+			}
 			while (a <= 122)
 			{
 				if (*argv[i] == a || *argv[i] == A)
 				{
-					printf("Error");
+					printf("Error\n");
 					return (1);
 				}
 				a++;
