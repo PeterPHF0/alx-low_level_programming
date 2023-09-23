@@ -11,7 +11,7 @@
 int is_divisible_by_i(int n, int i)
 {
 	if (n == i)
-		return (1);
+		return (0);
 	if (n % i == 0)
 		return (0);
 	return (is_divisible_by_i(n, i + 1));
