@@ -16,7 +16,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	int i = 0, j = 0;
 	char *conc;
 
-	conc = collac(strlen(s1) + n + 1, sizeof(char));
+	conc = calloc(strlen(s1) + n + 1, sizeof(char));
 	if (conc == NULL)
 		return (NULL);
 
