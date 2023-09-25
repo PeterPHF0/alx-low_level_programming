@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * main - Entry point
+ * malloc_checked - Entry point
  *
- * Description: use sizeof
+ * @b: use sizeof
  *
  * Return: 0 (Success)
 */
