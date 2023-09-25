@@ -3,10 +3,10 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * _calloc - Entry point
  *
- * Description: use sizeof
- *
+ * @nmemb: use sizeof
+ * @size: kk
  * Return: 0 (Success)
 */
 
@@ -23,7 +23,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (ptr == NULL)
 		return (NULL);
 
-	while(i < (size * nmemb))
+	while (i < (size * nmemb))
 	{
 		ptr[i] = zero;
 		i++;
