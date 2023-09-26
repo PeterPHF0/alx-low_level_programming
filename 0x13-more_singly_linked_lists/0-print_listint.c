@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include "lists.h"
 /**
- * main - Entry point
+ * print_listint - Entry point
  *
- * Description: use sizeof
+ * @h: use sizeof
  *
  * Return: 0 (Success)
 */
