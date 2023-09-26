@@ -2,13 +2,20 @@
 #include "lists.h"
 #include <stdlib.h>
 /**
- * main - Entry point
+ * free_listint - Entry point
  *
- * Description: use sizeof
+ * @head: use sizeof
  *
  * Return: 0 (Success)
 */
 void free_listint(listint_t *head)
 {
-	free(head);
+	listint_t *ptr;
+
+	while (head)
+	{
+		ptr = head->next;
+		free(head);
+		head = ptr;
+	}
 }
