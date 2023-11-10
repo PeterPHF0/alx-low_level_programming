@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdarg.h>
+#include"variadic_functions.h"
+/**
+ *  - Entry point
+ *
+ * @: use sizeof
+ *
+ * Return: 0 (Success)
+*/
+
+
+{
+	
+}
