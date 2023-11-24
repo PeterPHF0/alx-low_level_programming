@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * set_bit - prog sets the value of a bit to 1 at a given index.
+ * set_bit -  index.
  * @n: number to set
- * @index: index at which to set bit
+ * @index: in bit
  *
- * Return: 1 if success, or -1 if an error occurred
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
