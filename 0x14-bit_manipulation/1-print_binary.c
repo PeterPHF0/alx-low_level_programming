@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _pow - func calculates (base ^ power)
- * @base: base of the exponent
- * @power: power of the exponent
+ * _pow - func calcu fsd df slates (base ^ power)
+ * @base: base of the expefsf e  onent
+ * @power: powerdfsdf sd fsdf sdfs of the exponent
  *
  * Return: value of (base ^ power)
  */
@@ -19,8 +19,8 @@ unsigned long int _pow(unsigned int base, unsigned int power)
 }
 
 /**
- * print_binary - prints a number in binary notation
- * @n: number to print
+ * print_binary - pdfsdfrints ain binary notation
+ * @n: number to print dgsg sdvsdv
  *
  * Return: void
  */
