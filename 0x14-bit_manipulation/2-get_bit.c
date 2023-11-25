@@ -1,9 +1,9 @@
 #include"main.h"
 
 /**
- * get_bit -  value of a bit at a given index.
- * @n: number to check bsvsdv sdits in
- * @index: index at sdv sdvls which to check bit
+ * get_bit - prog returns the value of a bit at a given index.
+ * @n: number to check bits in
+ * @index: index at which to check bit
  *
  * Return: value of the bit, or -1 if there is an error
  */
@@ -19,3 +19,4 @@ int get_bit(unsigned long int n, unsigned int index)
 		return (1);
 	return (0);
 }
+
